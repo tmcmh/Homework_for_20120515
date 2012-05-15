@@ -8,6 +8,11 @@ puts "Here is a list of all the candy."
 CANDY_ARRAY.each {|candy| puts candy.describe}
 
 puts "\n"
+puts "Which ones are chocolate and are chewy?"
+
+(CANDY_ARRAY.select {|candy| candy.has_chocolate_and_is_chewy}).each {|candy| puts candy.describe}
+
+puts "\n"
 puts "What happens if I leave them in the sun?"
 
 CANDY_ARRAY.each {|candy| puts candy.name + " was left in the sun: " + candy.leave_in_sunlight}

@@ -14,6 +14,11 @@ class Candy
 		"The candy called #{@name} has #{@calorie_count} calories."
 	end
 
+	def has_chocolate_and_is_chewy
+		@has_chocolate && @chewy
+	end
+
+
 	def leave_in_sunlight
 		if @has_chocolate
 			return "Help, I'm melting!"
