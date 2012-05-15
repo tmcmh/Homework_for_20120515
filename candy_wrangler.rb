@@ -1,5 +1,5 @@
 require './candy_class'
-require './candy_data'
+require './candy_data2'
 
 puts "\e[H\e[2J"	# clear the screen
 
