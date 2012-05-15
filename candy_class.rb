@@ -10,7 +10,7 @@ class Candy
 		"The candy called #{@name} has #{@calorie_count} calories. It " + (@chewy ? "is chewy." : "is not chewy.") + " It " + (@gluten_free ? "is gluten-free" : "is not gluten-free.") + " It " + (@has_chocolate ? "has chocolate." : "does not have chocolate.") +" Its main color is #{@main_color}."
 	end
 
-	def calorie_list
+	def show_calories
 		"The candy called #{@name} has #{@calorie_count} calories."
 	end
 

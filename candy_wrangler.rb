@@ -21,5 +21,5 @@ CANDY_ARRAY.each {|candy| puts candy.describe}
 puts "\n"
 puts "Which ones are low-calorie (100 calories or less)?"
 
-(CANDY_ARRAY.select {|candy| candy.calorie_count <= 100}).each {|candy| puts candy.calorie_list}
+(CANDY_ARRAY.select {|candy| candy.calorie_count <= 100}).each {|candy| puts candy.show_calories}
 
